@@ -5,6 +5,7 @@
 *.pem
 *.key
 credentials.json
+application_default_credentials.json
 service-account*.json
 *-key.json
 kubeconfig*
@@ -17,6 +18,7 @@ kubeconfig*
 *.tfstate.*
 *.tfplan
 *.tfvars
+*.tfvars.json
 # Commit terraform.tfvars.example instead, and keep .terraform.lock.hcl tracked.
 
 # Python
