@@ -1,29 +1,47 @@
 # Secrets — never commit
 .env
 .env.*
+!.env.example
 *.pem
 *.key
 credentials.json
 service-account*.json
+*-key.json
+kubeconfig*
+.aws/
+.gcloud/
 
 # Terraform
 **/.terraform/*
 *.tfstate
 *.tfstate.*
+*.tfplan
 *.tfvars
+# Commit terraform.tfvars.example instead, and keep .terraform.lock.hcl tracked.
 
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
 
 # Node
 node_modules/
 dist/
 build/
+coverage/
+
+# Logs
+*.log
 
 # OS / editor
 .DS_Store
 Thumbs.db
 .idea/
+.vscode/
