@@ -25,7 +25,7 @@ One entry per decision: date, what we decided, what we rejected, and why.
 **Reasons:** one tool and one reviewable diff style across both providers is the least machinery that still covers the multi-cloud requirement.
 
 ## Terraform state 2026-10-28
-**Chosen:** remote state — S3 bucket with DynamoDB locking for AWS, GCS bucket for GCP.
+**Chosen:** remote state - S3 bucket with DynamoDB locking for AWS, GCS bucket for GCP.
 **Rejected:** local state (with several people planning from their own machines, drift and clobbered state are certain); Terraform Cloud (works, but adds an account and token to manage for no coursework benefit).
 **Reasons:** remote state with locking stops two members applying at once, and is itself part of the availability story.
 

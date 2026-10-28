@@ -17,13 +17,13 @@ Rebase on `main` before opening the PR rather than merging `main` into your bran
 
 ## Commits
 
-Conventional Commits: `type(scope): subject` — imperative mood, lower case after the colon, no trailing full stop. Scope is the area touched: `feat(infra): add aws health-check module`. British spelling throughout.
+Conventional Commits: `type(scope): subject` - imperative mood, lower case after the colon, no trailing full stop. Scope is the area touched: `feat(infra): add aws health-check module`. British spelling throughout.
 
 ## Pull requests
 
 - One reviewer minimum; nobody approves their own work.
 - Describe what changed and why, and link the entry you added to `docs/decisions.md` if you made a design choice.
-- Notation in `docs/genai-use-log.md` is a submission requirement, not a nicety — add the row in the same PR that the AI helped with.
+- Notation in `docs/genai-use-log.md` is a submission requirement, not a nicety - add the row in the same PR that the AI helped with.
 - Never commit secrets, `.tfstate`, `.tfvars` or `.env` files. Cloud credentials live in GitHub Actions secrets; see `infra/README.md`.
 
 ## Ownership

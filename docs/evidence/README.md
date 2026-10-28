@@ -8,4 +8,4 @@ Each member explains their own part on camera, so capture your own evidence as y
 
 ## Naming
 
-One directory per capture session, `YYYY-MM-DD-topic/` — for example `2026-11-04-failover-gcp-down/`. Keep cloud console timestamps visible in screenshots: failover time is a marked result, not decoration, and the demo video needs it to be checkable.
+One directory per capture session, `YYYY-MM-DD-topic/` - for example `2026-11-04-failover-gcp-down/`. Keep cloud console timestamps visible in screenshots: failover time is a marked result, not decoration, and the demo video needs it to be checkable.

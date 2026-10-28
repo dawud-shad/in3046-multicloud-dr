@@ -1,4 +1,4 @@
-# IN3046 — Multi-Cloud High Availability & Disaster Recovery
+# IN3046 - Multi-Cloud High Availability & Disaster Recovery
 
 Group project for IN3046 Cloud Computing, City St George's, University of London.
 
@@ -16,7 +16,7 @@ Mobility*, vol. 14, no. 5, pp. 1173–1198, Dec. 2025, doi: 10.13052/jcsm2245-14
 |---|---|
 | `backend/` | Server-side API, business logic and database access |
 | `frontend/` | User interface and the live status/failover dashboard |
-| `infra/` | Terraform for both clouds — start at `infra/README.md` |
+| `infra/` | Terraform for both clouds - start at `infra/README.md` |
 | `scripts/` | Load generation and fault-injection tests |
 | `docs/` | Proposal, decision log, evidence, references |
 
