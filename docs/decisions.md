@@ -6,12 +6,12 @@ One entry per decision: date, what we decided, what we rejected, and why.
 **Chosen:** Li et al. (2025), multi-cloud HA and disaster recovery. Approved by module lead.
 **Rejected:** federated-learning load balancing (Chennam 2025); ML Kubernetes scheduling (Dakić 2025).
 
-## Repository
+## Repository 2026-10-28
 **Chosen:** GitHub - one repo for code and docs.
 **Rejected:** separate docs repo (extra overhead); Drive-only (no version control evidence).
 
 ## Cloud providers
-**Chosen:** AWS + Google Cloud.
+**Proposed - pending group approval:** AWS + Google Cloud.
 **Reasons:** both are used on the module; GCP education credits available; covers multi-cloud requirement.
 
 ## Repository structure 2026-10-28
@@ -33,3 +33,7 @@ One entry per decision: date, what we decided, what we rejected, and why.
 **Chosen:** short-lived branches, Conventional Commits, one reviewer, `main` always working. Rules written down in `CONTRIBUTING.md`.
 **Rejected:** committing straight to `main` (no review evidence for group marks).
 **Reasons:** individual contribution has to be visible in the history, because each member defends their own part in the demo video.
+
+## Bootstrap commit, 2026-10-28
+The initial repository scaffolding (8 commits) was committed directly to `main` before Pull
+Request protection was enforceable. All subsequent changes go via branch and PR.
