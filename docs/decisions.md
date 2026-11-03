@@ -35,5 +35,6 @@ One entry per decision: date, what we decided, what we rejected, and why.
 **Reasons:** individual contribution has to be visible in the history, because each member defends their own part in the demo video.
 
 ## Bootstrap commit, 2026-10-28
-The initial repository scaffolding (8 commits) was committed directly to `main` before Pull
-Request protection was enforceable. All subsequent changes go via branch and PR.
+The initial repository scaffolding (9 commits, through to the GenAI use log entry) was committed
+directly to `main` before Pull Request protection was enforceable. All subsequent changes go via
+branch and PR.

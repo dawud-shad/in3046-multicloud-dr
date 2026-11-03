@@ -1,0 +1,3 @@
+# Default owner for every path, so pull requests are never left without a reviewer.
+# Add per-area owners below once the group agrees them - see CONTRIBUTING.md, Ownership.
+*   @dawud-shad
